@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>JS-Converter</title>
+</head>
+<body>
+
+    <nav>
+        <div class="navigation">
+            <h3>Roen Activities</h3>
+            <h3>Basic Converter in JavaScript</h3>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="category-col">
+            <h3>Select Converter:</h3>
+            <select id="category" onchange="overall();">
+                <option value="">Choose Category</option>
+                <option value="mass" onchange="mass_compute">Mass Converter</option>
+                <option value="length">Length Converter</option>
+            </select>
+            <hr><br>
+            <label for="heading" id="heading"> Converter</label><br>
+
+        <div class="wrapper">
+            
+            <label for="input1" id="label1">Input1</label><br>
+            <input type="number" id="input1" name="input1" onclick="g();" onkeyup="g();">
+            <br>
+            
+            <label for="input1" id="label2">Input2</label><br>
+            <input type="number" id="input2" name="input2" onclick="kg_g();" onkeyup="kg_g();">
+            <br>
+            
+            <label for="input1" id="label3">Input3</label><br>
+            <input type="number" id="input3" name="input3" onclick="kg_mg();"onkeyup="kg_mg();">
+           <br>
+         
+            <label for="input1" id="label4">Input4</label><br>
+            <input type="number" id="input4" name="input4" onclick="kg_ton();" onkeyup="kg_ton();">
+            <br><br>
+            <button id="reset" onclick="reset();">Reset</button>
+        </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
