@@ -38,22 +38,22 @@ function overall(){
         unit4.textContent = "MegaMeter";
     }
 
-    else if (value == ""){
+    else if (value == "volume"){
 
         let unit = document.getElementById('heading');
-        unit.textContent = "Converter";
+        unit.textContent = "Volume Converter";
 
         let unit1 = document.getElementById('label1');
-        unit1.textContent = "Input1";
+        unit1.textContent = "Liter";
 
         let unit2 = document.getElementById('label2');
-        unit2.textContent = "Input2";
+        unit2.textContent = "Cubic Meter";
 
         let unit3 = document.getElementById('label3');
-        unit3.textContent = "Input3";
+        unit3.textContent = "Cubic Centimeter";
 
         let unit4 = document.getElementById('label4');
-        unit4.textContent = "Input4";
+        unit4.textContent = "MegaLiter";
     }
 }
 
